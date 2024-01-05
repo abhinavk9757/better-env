@@ -3,6 +3,8 @@
   "displayName": "better-env",
   "description": "VS code extension for maintaining environment variables",
   "version": "0.0.1",
+  "author": "Abhinav Kumar <abhinavk9757@gmail.com",
+  "license": "GNU GPLv3",
   "engines": {
     "vscode": "^1.85.0"
   },
