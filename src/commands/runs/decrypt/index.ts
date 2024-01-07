@@ -1,5 +1,5 @@
 import { CommandRunner } from "..";
 
-export class DecryptRun implements CommandRunner {
+export class DecryptRunner implements CommandRunner {
   run() {}
 }

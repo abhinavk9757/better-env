@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import { CommandRunner, DecryptRun, GreetingsRunner } from "./runs";
+import { CommandRunner, DecryptRunner, GreetingsRunner } from "./runs";
 
 type CommandsRunsMapping = { command: string; runner: new () => CommandRunner }[];
 
@@ -11,7 +11,7 @@ export class CommandsInitializer {
     },
     {
       command: "better-env.decrypt",
-      runner: DecryptRun,
+      runner: DecryptRunner,
     },
   ];
 
