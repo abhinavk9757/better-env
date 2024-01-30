@@ -41,6 +41,10 @@
       {
         "command": "better-env.decrypt",
         "title": "Better Env: Decrypt to .env file"
+      },
+      {
+        "command": "better-env.chooseKey",
+        "title": "Better Env: Select key file from your computer"
       }
     ]
   }
